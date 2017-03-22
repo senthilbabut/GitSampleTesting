@@ -8,16 +8,16 @@ public class EditAccount extends Login {
 
 	@Test
 	public void editAccount() throws Exception {
-		// TODO Auto-generated constructor stub
+		// TODO Auto-generated constructor stub -updated
 		
 		String userName= "DemoSalesManager";
 		String password = "crmsfa";
 		String accountName = "TestLeaf_Account9_1";
 		String accountNameToUpdate = accountName+ "_Updated";
-		String accountId="17940";
+		//String accountId="17940";
 
-		login(userName,password);
-		clickByLink("CRM/SFA");
+		//login(userName,password);
+		//clickByLink("CRM/SFA");
 		clickByLink("Accounts");
 		clickByLink("Find Accounts");
 		
